@@ -1,0 +1,10 @@
+node_modules/
+*.asar
+*.asar.*
+app.asar.before-usage*
+*.log
+*.png
+*.zip
+.env
+.env.*
+coverage/

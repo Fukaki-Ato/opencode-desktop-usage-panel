@@ -1,0 +1,16 @@
+{
+  "name": "opencode-desktop-usage-panel",
+  "version": "0.1.0",
+  "private": true,
+  "description": "An in-window token and prompt-cache usage panel patch for OpenCode Desktop 2.0.29 on Windows.",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test panel.test.cjs",
+    "stage": "node patch.cjs stage",
+    "install:patch": "node patch.cjs install",
+    "restore": "node patch.cjs restore"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
